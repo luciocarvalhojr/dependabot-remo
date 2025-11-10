@@ -12,4 +12,5 @@ updates:
   - package-ecosystem: bundler
     directory: "/ruby"
     schedule:
-      interval: "weekly"
+      interval: "cron"
+      cronjob: "*/10 * * * *"
